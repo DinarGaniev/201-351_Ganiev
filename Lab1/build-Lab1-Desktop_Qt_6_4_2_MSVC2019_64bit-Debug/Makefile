@@ -400,6 +400,11 @@ distclean: debug-distclean release-distclean  FORCE
 	-$(DEL_FILE) Makefile
 	-$(DEL_FILE) .qmake.stash Lab1.pdb
 
+.beforebuild: FORCE
+	chcp 1251
+
+$(MAKEFILE): .beforebuild
+
 debug-mocclean:
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	$(MAKE) -f $(MAKEFILE).Debug mocclean

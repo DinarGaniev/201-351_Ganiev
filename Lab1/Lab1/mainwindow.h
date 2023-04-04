@@ -1,8 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include "keymanager.h"
 
 #include <QMainWindow>
+#include "keymanager.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,6 +21,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    KeyManager *sWindow;
+    KeyManager *pass;
+
 };
 #endif // MAINWINDOW_H

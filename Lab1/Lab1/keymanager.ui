@@ -30,7 +30,7 @@
       <set>QAbstractItemView::NoEditTriggers</set>
      </property>
      <property name="columnCount">
-      <number>3</number>
+      <number>0</number>
      </property>
      <attribute name="horizontalHeaderMinimumSectionSize">
       <number>39</number>
@@ -53,21 +53,6 @@
      <attribute name="verticalHeaderStretchLastSection">
       <bool>false</bool>
      </attribute>
-     <column>
-      <property name="text">
-       <string>Site</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Login</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Password</string>
-      </property>
-     </column>
     </widget>
    </item>
   </layout>
