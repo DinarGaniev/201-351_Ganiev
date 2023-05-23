@@ -1,2 +1,0 @@
-C:\Users\dinar\Lab2\passThrough1\x64\Debug\passThrough.sys
-C:\201-351_Ganiev\Lab2\passThrough1\x64\Debug\passThrough.sys
