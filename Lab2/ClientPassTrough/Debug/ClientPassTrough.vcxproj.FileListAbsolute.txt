@@ -1,1 +1,2 @@
 C:\Users\dinar\Lab2\ClientPassTrough\Debug\ClientPassTrough.exe
+C:\201-351_Ganiev\Lab2\ClientPassTrough\Debug\ClientPassTrough.exe

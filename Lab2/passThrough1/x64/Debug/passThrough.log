@@ -1,23 +1,9 @@
 ﻿  Building 'passThrough' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\passThrough.inf
-  Stamping [Version] section with DriverVer=05/15/2023,21.24.59.707
-C:\Users\dinar\Lab2\passThrough1\passThrough.inf(8-8): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
-C:\Users\dinar\Lab2\passThrough1\passThrough.inf(74-74): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
-  passThrough.c
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(61,26): warning C4083: требуется ")"; обнаружен идентификатор "_VCRUNTIME_DISABLED_WARNINGS"
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(111,1): warning C4005: _CRT_STRINGIZE: изменение макроопределения
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,1): message : см. предыдущее определение "_CRT_STRINGIZE"
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(114,1): warning C4005: _CRT_WIDE: изменение макроопределения
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,1): message : см. предыдущее определение "_CRT_WIDE"
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(155,1): warning C4005: __CRTDECL: изменение макроопределения
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,1): message : см. предыдущее определение "__CRTDECL"
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(16,26): warning C4083: требуется ")"; обнаружен идентификатор "_VCRUNTIME_DISABLED_WARNINGS"
-C:\Users\dinar\Lab2\passThrough1\passThrough.c(871,26): warning C4057: функция: "PCSTR" отличается от "uint8_t [1024]" по косвенному обращению к слегка разным базовым типам
-C:\Users\dinar\Lab2\passThrough1\passThrough.c(900,26): warning C4057: функция: "PCSTR" отличается от "uint8_t [1024]" по косвенному обращению к слегка разным базовым типам
-  passThrough.vcxproj -> C:\Users\dinar\Lab2\passThrough1\x64\Debug\passThrough.sys
-  Done Adding Additional Store
-  Successfully signed: C:\Users\dinar\Lab2\passThrough1\x64\Debug\passThrough.sys
-  
+  Stamping [Version] section with DriverVer=05/16/2023,11.30.6.90
+C:\201-351_Ganiev\Lab2\passThrough1\passThrough.inf(8-8): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
+C:\201-351_Ganiev\Lab2\passThrough1\passThrough.inf(74-74): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  passThrough.vcxproj -> C:\201-351_Ganiev\Lab2\passThrough1\x64\Debug\passThrough.sys
   Driver is 'Universal'.
   .........................
   Signability test complete.
@@ -29,7 +15,7 @@ C:\Users\dinar\Lab2\passThrough1\passThrough.c(900,26): warning C4057: функ�
   None
   
   Catalog generation complete.
-  C:\Users\dinar\Lab2\passThrough1\x64\Debug\passThrough\passthrough.cat
+  C:\201-351_Ganiev\Lab2\passThrough1\x64\Debug\passThrough\passthrough.cat
   Done Adding Additional Store
   Successfully signed: x64\Debug\passThrough\passthrough.cat
   
